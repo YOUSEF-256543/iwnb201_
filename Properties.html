@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Properties</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+
+<body onload="generate()">
+    <nav>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="AboutUs.html">AboutUs</a></li>
+            <li><a href="Properties.html">Properties</a></li>
+        </ul>
+    </nav>
+    <img class="Properties" src="images/Properties.jpg!sw800">
+
+
+    <!-- table -->
+    <section>
+        <div class="continer">
+            <table>
+                <thead>
+                    <tr>
+                        <th>المدينة</th>
+                        <th>تفاصيل</th>
+                        <th>الإيجار الشهري</th>
+                        <th>اظهار تفاصيل </th>
+                        <th>اختيار</th>
+                    </tr>
+                </thead>
+                <tbody id="flats">
+                </tbody>
+                <tr>
+                    <td>دمشق</td>
+
+                    <td>شقة غرفة وصالة مساحة 70م</td>
+                    <td>500000 ل.س</td>
+                    <td><input type="checkbox" onclick="hideshow()"></td>
+                    <td><input type="radio"></td>
+
+
+                </tr>
+                <tr>
+                    <td colspan="5 ">
+                        <div id="full" style="display: none;">
+                            <div class="info ">
+                                <ul class="text ">
+                                    <li>المنطقة : ركن الدين </li>
+                                    <li> متوفر كراج : نعم</li>
+                                    <li>الطابق :الثالث</li>
+                                    <li>الملكية : طابو</li>
+                                    <li>مساحة بلكون :14 متر</li>
+                                    <li>مفروشة : نعم</li>
+
+
+
+
+                                </ul>
+                            </div>
+                            <div class="image ">
+                                <img src="images/1.jpg ">
+                                <img src="images/2.jpg ">
+                                <img src="images/3.jpg ">
+                            </div>
+                    </td>
+                </tr>
+                </div>
+
+                <tr>
+                    <td>دمشق</td>
+                    <td> شقة غرفتين وصالة مساحة140متر</td>
+                    <td>60000 ل.س</td>
+                    <td><input type="checkbox" onclick="hideshow2()"></td>
+                    <td><input type="radio"></td>
+                </tr>
+
+                <tr>
+                    <td colspan="5 ">
+                        <div id="full2" style="display: none;">
+                            <div class="info ">
+                                <ul class="text ">
+                                    <li>المنطقة : مشروع دمر</li>
+                                    <li> متوفر كراج : لا</li>
+                                    <li>الطابق : اول</li>
+                                    <li>الملكية : طابو</li>
+                                    <li>مساحة بلكون :12 متر</li>
+                                    <li>مفروشة : لا</li>
+
+                                </ul>
+                            </div>
+                            <div class="image ">
+                                <img src="images/4.jpg ">
+                                <img src="images/5.jpg ">
+                                <img src="images/6.jpg ">
+                            </div>
+                        </div>
+
+                    </td>
+                </tr>
+
+
+
+                <tr>
+                    <td>دمشق</td>
+                    <td> شقة غرفة وصالة مساحة110متر</td>
+                    <td>40000 ل.س</td>
+                    <td><input type="checkbox" onclick="hideshow3()"></td>
+                    <td><input type="radio"></td>
+                </tr>
+
+                <tr>
+                    <td colspan="5 ">
+                        <div id="full3" style="display: none;">
+                            <div class="info ">
+                                <ul class="text ">
+                                    <li>المنطقة : كفرسوسة </li>
+                                    <li> متوفر كراج : لا</li>
+                                    <li>الطابق : ثاني</li>
+                                    <li>الملكية : طابو</li>
+                                    <li>مساحة بلكون :13 متر</li>
+                                    <li>مفروشة : نعم</li>
+
+                                </ul>
+                            </div>
+                            <div class="image ">
+                                <img src="images/7.jpg ">
+                                <img src="images/8.jpg ">
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <td>دمشق</td>
+                    <td> شقة غرفتين وصالة مساحة150متر</td>
+                    <td>70000 ل.س</td>
+                    <td><input type="checkbox" onclick="hideshow4()"></td>
+                    <td><input type="radio"></td>
+                </tr>
+
+
+                <tr>
+                    <td colspan="5 ">
+                        <div id="full4" style="display: none;">
+                            <div class="info ">
+                                <ul class="text ">
+                                    <li>المنطقة :المالكي </li>
+                                    <li> متوفر كراج : نعم</li>
+                                    <li>الطابق : رابع</li>
+                                    <li>الملكية : طابو</li>
+                                    <li>مساحة بلكون :15 متر</li>
+                                    <li>مفروشة : نعم</li>
+
+                                </ul>
+                            </div>
+                            <div class="image ">
+                                <img src="images/9.jpg ">
+                                <img src="images/10.jpg ">
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>دمشق</td>
+                    <td> شقة غرفة وصالة مساحة115متر</td>
+                    <td>40000 ل.س</td>
+                    <td><input type="checkbox" onclick="hideshow5()"></td>
+                    <td><input type="radio"></td>
+                </tr>
+
+
+                <tr>
+                    <td colspan="5 ">
+                        <div id="full5" style="display: none;">
+                            <div class="info ">
+                                <ul class="text ">
+                                    <li>المنطقة : زاهرة </li>
+                                    <li> متوفر كراج : لا</li>
+                                    <li>الطابق : ثاني</li>
+                                    <li>الملكية : طابو</li>
+                                    <li>مساحة بلكون :8 متر</li>
+                                    <li>مفروشة : نعم</li>
+
+                                </ul>
+                            </div>
+                            <div class="image ">
+                                <img src="images/11.jpg ">
+                                <img src="images/12.jpg ">
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <td>دمشق</td>
+                    <td> شقة غرفة وصالة مساحة120متر</td>
+                    <td>40000 ل.س</td>
+                    <td><input type="checkbox" onclick="hideshow6()"></td>
+                    <td><input type="radio"></td>
+                </tr>
+
+
+                <tr>
+                    <td colspan="5 ">
+                        <div id="full6" style="display: none;">
+                            <div class="info ">
+                                <ul class="text ">
+                                    <li>المنطقة : صالحية </li>
+                                    <li> متوفر كراج : لا</li>
+                                    <li>الطابق : ثاني</li>
+                                    <li>الملكية : طابو</li>
+                                    <li>مساحة بلكون : لا يوجد</li>
+                                    <li>مفروشة : نعم</li>
+
+                                </ul>
+                            </div>
+                            <div class="image ">
+                                <img src="images/13.jpg ">
+                                <img src="images/14.jpg ">
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <td>دمشق</td>
+                    <td> شقة غرفتين وصالة مساحة140متر</td>
+                    <td>60000 ل.س</td>
+                    <td><input type="checkbox" onclick="hideshow7()"></td>
+                    <td><input type="radio"></td>
+                </tr>
+
+
+                <tr>
+                    <td colspan="5 ">
+                        <div id="full7" style="display: none;">
+                            <div class="info ">
+                                <ul class="text ">
+                                    <li>المنطقة : مشروع دمر</li>
+                                    <li> متوفر كراج : لا</li>
+                                    <li>الطابق : ثاني</li>
+                                    <li>الملكية : طابو</li>
+                                    <li>مساحة بلكون :13 متر</li>
+                                    <li>مفروشة : لا</li>
+
+                                </ul>
+                            </div>
+                            <div class="image ">
+                                <img src="images/15.webp ">
+                                <img src="images/16.jpg ">
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <td>دمشق</td>
+                    <td> شقة غرفة وصالة مساحة125متر</td>
+                    <td>50000 ل.س</td>
+                    <td><input type="checkbox" onclick="hideshow8()"></td>
+                    <td><input type="radio"></td>
+                </tr>
+
+
+                <tr>
+                    <td colspan="5 ">
+                        <div id="full8" style="display: none;">
+                            <div class="info ">
+                                <ul class="text ">
+                                    <li>المنطقة : كفرسوسة </li>
+                                    <li> متوفر كراج : نعم</li>
+                                    <li>الطابق : ثاني</li>
+                                    <li>الملكية : طابو</li>
+                                    <li>مساحة بلكون :13 متر</li>
+                                    <li>مفروشة : نعم</li>
+
+                                </ul>
+                            </div>
+                            <div class="image ">
+                                <img src="images/17.jpeg ">
+                                <img src="images/18 .jpg ">
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <td>دمشق</td>
+                    <td> شقة ثلاث غرف وصالة مساحة180متر</td>
+                    <td>60000 ل.س</td>
+                    <td><input type="checkbox" onclick="hideshow9()"></td>
+                    <td><input type="radio"></td>
+                </tr>
+
+
+                <tr>
+                    <td colspan="5 ">
+                        <div id="full9" style="display: none;">
+                            <div class="info ">
+                                <ul class="text ">
+                                    <li>المنطقة :المالكي </li>
+                                    <li> متوفر كراج : نعم</li>
+                                    <li>الطابق : ثاني</li>
+                                    <li>الملكية : طابو</li>
+                                    <li>مساحة بلكون :17 متر</li>
+                                    <li>مفروشة : نعم</li>
+
+                                </ul>
+                            </div>
+                            <div class="image ">
+                                <img src="images/19 .jpg ">
+                                <img src="images/20.jpg ">
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <td>دمشق</td>
+                    <td> شقة ثلاث غرف وصالة مساحة180متر</td>
+                    <td>60000 ل.س</td>
+                    <td><input type="checkbox" onclick="hideshow10()"></td>
+                    <td><input type="radio"></td>
+                </tr>
+
+
+                <tr>
+                    <td colspan="5 ">
+                        <div id="full10" style="display: none;">
+                            <div class="info ">
+                                <ul class="text ">
+                                    <li>المنطقة : مشروع دمر</li>
+                                    <li> متوفر كراج : نعم</li>
+                                    <li>الطابق : ثالث</li>
+                                    <li>الملكية : طابو</li>
+                                    <li>مساحة بلكون :17 متر</li>
+                                    <li>مفروشة : نعم</li>
+                                </ul>
+                            </div>
+                            <div class="image ">
+                                <img src="images/21.jpg ">
+                                <img src=" images/22.jpg ">
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </section>
+
+
+    <!--  form -->
+    <div id="shopping-cart ">
+        <button onclick="cancelCart() ">Cancel</button>
+        <button onclick="showBuyForm() ">Continue</button>
+    </div>
+    <form style="display: none; " id="form">
+        <div class="container">
+            <h1>form</h1>
+            <div class="form-group">
+                <label for="name">الاسم الكامل:</label>
+                <input type="text" id="name" name="name">
+            </div>
+            <div class="form-group">
+                <label for="national_id">الرقم الوطني:</label>
+                <input type="number" id="national_id" name="national_id" required>
+            </div>
+            <div class="form-group">
+                <label for="date_of_birth">تاريخ الولادة:</label>
+                <input type="date" id="date_of_birth" name="date_of_birth">
+            </div>
+            <div class="form-group">
+                <label for="mobile_number">رقم الموبايل:</label>
+                <input type="number" id="mobile_number" name="mobile_number">
+            </div>
+            <div class="form-group">
+                <label for="email">البريد الإلكتروني:</label>
+                <input type="email" id="email" name="email">
+                <div class="form-group">
+                    <div id="captcha-container">
+                        <div>
+                            <input type="text" readonly id="generated-captcha">
+                        </div>
+
+                        <label for="captcha">كابتشا:  
+
+                            <span id="captcha-challenge"></span></label>
+
+
+                        <!-- //** -->
+
+                        <h2 id="status" style="color: #ff0d00;"></h2>
+
+                        <div>
+                            <input type="text" id="entered-captcha" placeholder="Enter the captcha..">
+                        </div>
+                        <button type="button" onclick="check()">
+                    checkCaptcha
+                      </button>
+                        <button type="button" onclick="generate()" id="gen">
+                          GenerateNew
+                      </button>
+                        </button>
+                        <button onclick="buy()">submit</button>
+                    </div>
+
+
+                    <br>
+
+                </div>
+            </div>
+        </div>
+    </form>
+
+    <script src="myFunctions.js "></script>
+</body>
+
+</html>
